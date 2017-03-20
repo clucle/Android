@@ -1,4 +1,4 @@
-package com.devandroid.clucle.mvp_pattern_tutor.data;
+package com.devandroid.clucle.mvp_pattern_tutor.model;
 
 public class User {
 

@@ -1,8 +1,6 @@
 package com.devandroid.clucle.mvp_pattern_tutor.presenter;
 
-import android.view.View;
-
-import com.devandroid.clucle.mvp_pattern_tutor.data.User;
+import com.devandroid.clucle.mvp_pattern_tutor.model.User;
 
 public class MainPresenter {
     private User user;
