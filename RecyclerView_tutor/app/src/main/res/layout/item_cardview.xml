@@ -6,21 +6,18 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content">
     <android.support.v7.widget.CardView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:cardcornerradius="0dp"
-        app:cardelevation="0dp"
-        app:cardusecompatpadding="true">
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:scaletype="centerCrop"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
                 android:id="@+id/image">
             </ImageView>
 
@@ -28,9 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/imagetitle"
-                android:gravity="center"
-                android:textappearance="?android:attr/textAppearanceListItemSmall"
-                android:minheight="?android:attr/listPreferredItemHeightSmall">
+                android:gravity="center">
 
             </TextView>
         </LinearLayout>
