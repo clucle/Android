@@ -1,0 +1,14 @@
+{
+  "name": "retrofit_tutor",
+  "version": "1.0.0",
+  "description": "it is basic ping pong json for android retrofit client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
