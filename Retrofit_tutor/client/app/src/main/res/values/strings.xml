@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RetrofitTutor</string>
+
+    <!-- Main View String Define -->
+    <string name="init_main_view_text">초기 상태 입니다.</string>
+    <string name="main_view_search_user_hint">Name</string>
+    <string name="main_view_btn_name_search_one">Search</string>
+    <string name="main_view_btn_name_search_list">Search All</string>
+
+
+</resources>
