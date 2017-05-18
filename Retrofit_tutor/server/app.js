@@ -11,6 +11,10 @@ app.get('/', function(req, res){
 	res.sendFile(__dirname + '/index.html');
 });
 
+app.post('/ping', function(req, res){
+	res.send("pong");
+});
+
 http.createServer(app).listen(app.get('port'), function(){
 	console.log('Express server listeneing on port ' + app.get('port'));
 })
