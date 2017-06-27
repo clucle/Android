@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RecyclerView_tutor.iml" filepath="$PROJECT_DIR$/RecyclerView_tutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerView_tutor.iml" filepath="$PROJECT_DIR$/RecyclerView_tutor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

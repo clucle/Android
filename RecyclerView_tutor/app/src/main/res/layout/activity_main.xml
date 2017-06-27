@@ -7,14 +7,17 @@
     tools:context="com.devandroid.clucle.recyclerview_tutor.MainActivity">
 
     <android.support.v7.widget.RecyclerView
-        android:layout_width="368dp"
-        android:layout_height="wrap_content"
         android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:scrollbars="vertical"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent">
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent">
+
     </android.support.v7.widget.RecyclerView>
 
 </android.support.constraint.ConstraintLayout>
