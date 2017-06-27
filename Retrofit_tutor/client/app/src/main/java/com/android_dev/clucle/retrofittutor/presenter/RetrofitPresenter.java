@@ -26,7 +26,6 @@ public class RetrofitPresenter {
 
     // Search One User and Show View
     public void updateUser(String name) {
-        Log.e("[Client]", "Too many request?");
         RetrofitHelper.getInstance().getUser(name).enqueue(new Callback<User>() {
             @Override
             public void onResponse(@NonNull Call<User> call, @NonNull Response<User> response) {
@@ -40,7 +39,6 @@ public class RetrofitPresenter {
 
             @Override
             public void onFailure(@NonNull Call<User> call, @NonNull Throwable t) {
-                Log.e("[Server]", t.getLocalizedMessage());
                 view.updateTextView("Error! at Search One");
             }
         });
@@ -53,7 +51,7 @@ public class RetrofitPresenter {
             public void onResponse(@NonNull Call<Users> call, @NonNull Response<Users> response) {
                 if (response.code() == 200 && response.body().users != null) {
                     userList = response.body().users;
-                    // 임시로 2번 째 사람의 이름만 출력해보자
+                    // temporary print only second person
                     view.updateTextView(userList.get(1).getName());
                 } else {
                     onFailure(call, new Throwable("may be response something but error"));

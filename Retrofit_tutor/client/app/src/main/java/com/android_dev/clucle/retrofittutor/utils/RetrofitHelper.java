@@ -1,8 +1,5 @@
 package com.android_dev.clucle.retrofittutor.utils;
 
-import android.content.Context;
-import android.net.ConnectivityManager;
-
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -22,12 +19,5 @@ public class RetrofitHelper {
                     .build();
         }
         return retrofit.create(RetrofitAPI.class);
-    }
-
-    public static boolean returnNetworkState(Context context) {
-        ConnectivityManager connectivityManager =
-                ((ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE));
-        return connectivityManager.getActiveNetworkInfo() != null &&
-                connectivityManager.getActiveNetworkInfo().isConnected();
     }
 }
