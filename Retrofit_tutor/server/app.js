@@ -28,7 +28,7 @@ app.post('/user/one', function(req, res){
 	} else if(req.body.name == "junsu") {
 		res.status(200).send({name: 'junsu', age: 25});
 	} else {
-		res.status(404).send("ERROR");
+		res.status(501).send("ERROR");
 	}
 });
 
