@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">No Title</string>
+    <string name="text_title_m_shirts">Mens T-shirts</string>
+    <string name="text_title_menu">Mens T repeat</string>
+    <string name="text_Add_to_Cart">Add to Cart $25.00</string>
+
+    <string name="text_XS">XS</string>
+    <string name="text_S">S</string>
+    <string name="text_M">M</string>
+    <string name="text_L">L</string>
+    <string name="text_XL">XL</string>
+
+</resources>
