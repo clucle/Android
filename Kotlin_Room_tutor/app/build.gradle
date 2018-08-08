@@ -36,6 +36,7 @@ dependencies {
     kapt "android.arch.lifecycle:compiler:$rootProject.lifecycleExtensionVersion"
     implementation "android.arch.persistence.room:runtime:$rootProject.roomVersion"
     kapt "android.arch.persistence.room:compiler:$rootProject.roomVersion"
+    implementation "com.android.support:recyclerview-v7:$rootProject.supportLibraryVersion"
     implementation "android.arch.work:work-runtime-ktx:$rootProject.workVersion"
     testImplementation "junit:junit:$rootProject.junitVersion"
     androidTestImplementation "androidx.test:runner:$rootProject.runnerVersion"
