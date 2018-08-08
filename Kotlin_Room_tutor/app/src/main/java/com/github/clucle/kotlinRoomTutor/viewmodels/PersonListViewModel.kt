@@ -17,4 +17,6 @@ class PersonListViewModel internal constructor(
 
     fun getAllPerson() = personList
 
+    fun createPerson(firstName: String, lastName: String) =
+            personRepository.createPerson(firstName, lastName)
 }
