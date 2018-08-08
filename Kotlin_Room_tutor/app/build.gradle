@@ -7,6 +7,9 @@ apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion rootProject.compileSdkVersion
+    dataBinding {
+        enabled = true
+    }
     defaultConfig {
         applicationId "com.github.clucle.kotlin_room_tutor"
         minSdkVersion rootProject.minSdkVersion
