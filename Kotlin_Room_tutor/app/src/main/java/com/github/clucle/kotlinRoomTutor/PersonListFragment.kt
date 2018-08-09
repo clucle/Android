@@ -26,7 +26,7 @@ class PersonListFragment : Fragment() {
         val factory = InjectorUtils.providePersonListViewModelFactory(requireActivity())
         val personViewModel = ViewModelProviders.of(this, factory)
                 .get(PersonListViewModel::class.java)
-        val adapter = PersonAdapter()
+        val adapter = PersonAdapter(personViewModel)
         val binding: FragmentPersonListBinding = DataBindingUtil.inflate<FragmentPersonListBinding>(
                 inflater, R.layout.fragment_person_list, container, false).apply {
             viewModel = personViewModel

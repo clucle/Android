@@ -19,4 +19,7 @@ class PersonListViewModel internal constructor(
 
     fun createPerson(firstName: String, lastName: String) =
             personRepository.createPerson(firstName, lastName)
+
+    fun deletePerson(person: Person) =
+            personRepository.deletePerson(person)
 }

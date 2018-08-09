@@ -12,6 +12,13 @@ class PersonRepository private constructor(
         }
     }
 
+    fun deletePerson(person: Person) {
+        runOnIoThread {
+            personDao.delete(person)
+        }
+    }
+
+
     fun getAllPeople() = personDao.getAllPeople()
 
     companion object {
