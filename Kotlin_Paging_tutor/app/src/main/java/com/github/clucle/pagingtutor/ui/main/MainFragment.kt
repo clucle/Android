@@ -1,4 +1,4 @@
-package com.github.clucle.kotlin_paging_tutor.ui.main
+package com.github.clucle.pagingtutor.ui.main
 
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.github.clucle.kotlin_paging_tutor.R
+import com.github.clucle.pagingtutor.R
 
 class MainFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.github.clucle.kotlin_paging_tutor.ui.main
+package com.github.clucle.pagingtutor.ui.main
 
 import androidx.lifecycle.ViewModel
 

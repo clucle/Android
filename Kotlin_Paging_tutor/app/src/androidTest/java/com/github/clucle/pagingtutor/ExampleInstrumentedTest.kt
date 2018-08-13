@@ -1,4 +1,4 @@
-package com.github.clucle.kotlin_paging_tutor
+package com.github.clucle.pagingtutor
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4

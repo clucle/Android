@@ -1,4 +1,4 @@
-package com.github.clucle.kotlin_paging_tutor
+package com.github.clucle.pagingtutor
 
 import org.junit.Test
 

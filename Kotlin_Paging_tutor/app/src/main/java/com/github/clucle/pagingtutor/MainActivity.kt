@@ -1,8 +1,8 @@
-package com.github.clucle.kotlin_paging_tutor
+package com.github.clucle.pagingtutor
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.github.clucle.kotlin_paging_tutor.ui.main.MainFragment
+import com.github.clucle.pagingtutor.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
