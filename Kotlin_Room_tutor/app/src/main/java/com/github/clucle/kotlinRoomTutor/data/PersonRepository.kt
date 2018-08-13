@@ -18,6 +18,7 @@ class PersonRepository private constructor(
         }
     }
 
+    fun persons() = personDao.persons()
 
     fun getAllPeople() = personDao.getAllPeople()
 

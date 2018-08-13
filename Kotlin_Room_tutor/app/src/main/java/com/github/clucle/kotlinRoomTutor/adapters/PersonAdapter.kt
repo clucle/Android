@@ -20,9 +20,13 @@ class PersonAdapter(private val viewModel: PersonListViewModel) : ListAdapter<Pe
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val person = getItem(position)
-        holder.apply {
-            bind(createOnClickListener(person), person)
-            itemView.tag = person
+        if (person != null) {
+            holder.apply {
+                bind(createOnClickListener(person), person)
+                itemView.tag = person
+            }
+        } else {
+            holder.clear()
         }
     }
 
@@ -41,6 +45,12 @@ class PersonAdapter(private val viewModel: PersonListViewModel) : ListAdapter<Pe
                 clickListener = listener
                 person = item
                 executePendingBindings()
+            }
+        }
+
+        fun clear() {
+            binding.apply {
+                person = null
             }
         }
     }
